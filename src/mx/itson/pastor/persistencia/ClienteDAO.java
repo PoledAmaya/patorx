@@ -54,6 +54,7 @@ public class ClienteDAO {
     statement.setString(2, direccion);
     statement.setString(3, telefono);
     statement.setString(4, gmail);
+    
     }catch (Exception ex){
     System.err.print("Ocurrio un error:" + ex.getMessage());
     
